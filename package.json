@@ -1,0 +1,21 @@
+{
+  "name": "md-doctor",
+  "version": "1.0.0",
+  "description": "A zero-dependency CLI that scans Markdown files for broken local links.",
+  "main": "index.js",
+  "bin": {
+    "md-doctor": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "markdown",
+    "linter",
+    "links",
+    "documentation"
+  ],
+  "author": "mbott",
+  "license": "MIT"
+}
